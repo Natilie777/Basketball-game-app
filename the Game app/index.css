@@ -1,0 +1,124 @@
+body {
+    height: 550px;
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(#a2d2ff, #836d78);
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 700px;
+    width: 575;
+    height: 385;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(#836d78, #a2d2ff);
+    align-items: center;
+    padding: 30px 50px;
+    box-shadow: 5px 0px 5px 0px rgb(87, 85, 85);
+
+}
+
+#theFirstBlock,
+#theSecondBlock {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.theColumn {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#homeBtn,
+#guestBtn,
+#completedBtn,
+#leaderBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 28px;
+    width: 140px;
+    height: 90px;
+    background-color: black;
+    border: white solid 5px;
+    color: white;
+
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+}
+
+.reset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 575px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#resetBtn,
+#resetEverything {
+    margin-top: 5px;
+    padding-top: 14px;
+    font-size: 18px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 50px;
+    box-shadow: 0px 3px 0px 0px black;
+
+}
+
+
+#resetEverything {
+    margin-top: 10px;
+}
+
+.container,
+#resetBtn,
+#homeBtn,
+#guestBtn,
+#completedBtn,
+#leaderBtn,
+#resetEverything {
+    border-radius: 10px;
+}
+
+.output {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.plusOne,
+.plusTwo,
+.plusThree {
+    width: 30px;
+    margin-top: 20px;
+    border: black solid 2px;
+    border-radius: 5px;
+}

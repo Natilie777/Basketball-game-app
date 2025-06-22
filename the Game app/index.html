@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The game</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body></body>
+</html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="theFirstBlock">
+        <div class="theColumn">
+          <h3>HOME</h3>
+          <span id="homeBtn"></span>
+          <div class="output">
+            <span class="plusOne" onclick="incrementScoreOneHome()"></span>
+            <span class="plusTwo" onclick="incrementScoreTwoHome()"></span>
+            <span class="plusThree" onclick="incrementScoreThreeHome()"></span>
+          </div>
+        </div>
+
+        <div class="theColumn">
+          <h3>GUEST</h3>
+          <span id="guestBtn"> </span>
+          <div class="output">
+            <span class="plusOne" onclick="incrementScoreOneGuest()"></span>
+            <span class="plusTwo" onclick="incrementScoreTwoGuest()"></span>
+            <span class="plusThree" onclick="incrementScoreThreeGuest()"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="reset">
+        <button
+          id="resetBtn"
+          onclick=" winnerCounter(),newGame(), numOfGames() "
+        ></button>
+        <button id="resetEverything" onclick="reset()">Reset</button>
+      </div>
+
+      <div id="theSecondBlock">
+        <div class="theColumn">
+          <h3>NUMBER OF GAMES</h3>
+          <span id="completedBtn"> </span>
+        </div>
+        <div class="theColumn">
+          <h3>THE LEADER</h3>
+          <span id="leaderBtn"> </span>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
